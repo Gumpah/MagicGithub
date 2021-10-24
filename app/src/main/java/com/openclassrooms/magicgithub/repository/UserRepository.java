@@ -13,15 +13,15 @@ public class UserRepository {
         this.apiService = apiService;
     }
 
-    public List<User> getUsers() { // Modified
+    public List<User> getUsers() {
         return apiService.getUsers();
-    }
+    } // Modified
 
-    public void generateRandomUser() { // Modified
+    public void generateRandomUser() {
         apiService.generateRandomUser();
-    }
+    } // Modified
 
-    public void deleteUser(User user) { // Modified
+    public void deleteUser(User user) {
         apiService.deleteUser(user);
-    }
+    } // Modified
 }
